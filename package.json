@@ -1,7 +1,7 @@
 {
   "name": "test",
   "version": "1.0.0",
-  "description": "",
+  "description": "개인 서버 작업",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "sanitize-html": "^2.13.0",
     "yarn": "^1.22.22"
+  },
+  "directories": {
+    "lib": "lib"
   }
 }
